@@ -9,7 +9,7 @@ body {
 
 /*NAVBAR*/
 header {
-  background-color: indianred;
+  background-color: white;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
   position: sticky;
   top: 0;
@@ -26,7 +26,7 @@ nav {
 }
 
 .logo {
-  color: ghostwhite;
+  color: black;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 20px;
@@ -43,7 +43,7 @@ nav {
 }
 
 .nav-links a {
-  color: ghostwhite;
+  color: black;
   text-decoration: none;
   font-style: 14px;
   letter-spacing: 3px;
@@ -59,7 +59,7 @@ nav {
 .burger div {
   width: 25px;
   height: 2px;
-  background: ghostwhite;
+  background: black;
   margin: 5px;
   transition: all 0.3s ease;
 }
@@ -81,7 +81,7 @@ nav {
     right: 0px;
     top: 10vh;
     height: 90vh;
-    background: indianred;
+    background: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,4 +122,55 @@ nav {
 
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -5px);
+}
+
+/*MAIN*/
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section h2 {
+  font-size: 5rem;
+  color: white;
+}
+
+.home {
+  background-image: linear-gradient(
+    to left,
+    #ff9a9e 0%,
+    #fad0c4 99%,
+    #fad0c4 100%
+  );
+}
+
+.about {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+.work {
+  background-image: linear-gradient(to left, #fad0c4 0%, #ffd1ff 100%);
+}
+
+.projects {
+  background-image: linear-gradient(
+    to right,
+    #fdcbf1 0%,
+    #fdcbf1 1%,
+    #e6dee9 100%
+  );
+}
+.bubble {
+  position: absolute;
+  z-index: -2;
+  background-image: linear-gradient(
+    to left,
+    #ff9a9e 0%,
+    #fad0c4 99%,
+    #fad0c4 100%
+  );
+  transform: scaleY(1.5) scaleX(1.5);
+  transition: all 0.5s ease;
 }

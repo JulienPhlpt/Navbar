@@ -19,17 +19,18 @@
         </div>
         <ul class="nav-links">
           <li>
-            <a href="">Home</a>
+            <a data-page="home" href="">Home</a>
           </li>
           <li>
-            <a href="">About</a>
+            <a data-page="about" href="">About</a>
           </li>
           <li>
-            <a href="">Work</a>
+            <a data-page="work" href="">Work</a>
           </li>
           <li>
-            <a href="">Projects</a>
+            <a data-page="projects" href="">Projects</a>
           </li>
+          <li class="bubble"></li>
         </ul>
         <div class="burger">
           <div class="line1"></div>
@@ -38,6 +39,20 @@
         </div>
       </nav>
     </header>
+    <main>
+      <section data-index="0" class="home">
+        <h2>Home</h2>
+      </section>
+      <section data-index="1" class="about">
+        <h2>About</h2>
+      </section>
+      <section data-index="2" class="work">
+        <h2>Work</h2>
+      </section>
+      <section data-index="3" class="projects">
+        <h2>Projects</h2>
+      </section>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
