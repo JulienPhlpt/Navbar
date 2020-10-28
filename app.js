@@ -27,12 +27,11 @@ const navSlide = () => {
 const gradient = () => {
   const sections = document.querySelectorAll("section");
   const bubble = document.querySelector(".bubble");
-  const navSection = document.querySelectorAll(".nav-links a");
   const gradients = [
-    "linear-gradient(45deg, #f09819, #edde5d)",
-    "linear-gradient(45deg, #0093E9 0%, #80D0C7 100%)",
-    "linear-gradient(45deg, #02aab0, #00cdac)",
-    "linear-gradient(45deg, #FF416C, #FF4B2B)",
+    "linear-gradient(45deg, #FF928B, #FFC6C2)",
+    "linear-gradient(45deg, #FEC3A6, #FFE4D7)",
+    "linear-gradient(45deg, #AED1E6, #D0E4F1)",
+    "linear-gradient(45deg, #B7CE63, #C5D883)",
   ];
 
   const options = {

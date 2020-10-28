@@ -47,7 +47,6 @@ nav {
   text-decoration: none;
   font-style: 14px;
   letter-spacing: 3px;
-  font-weight: bold;
 }
 
 /*NAVBAR MOBILE*/
@@ -138,24 +137,24 @@ section h2 {
 }
 
 .home {
-  background-image: linear-gradient(45deg, #f09819, #edde5d);
+  background-image: linear-gradient(45deg, #ff928b, #ffc6c2);
 }
 
 .about {
-  background-image: linear-gradient(45deg, #0093e9 0%, #80d0c7 100%);
+  background-image: linear-gradient(45deg, #fec3a6, #ffe4d7);
 }
 
 .work {
-  background-image: linear-gradient(45deg, #02aab0, #00cdac);
+  background-image: linear-gradient(45deg, #aed1e6, #d0e4f1);
 }
 
 .projects {
-  background-image: linear-gradient(45deg, #ff416c, #ff4b2b);
+  background-image: linear-gradient(45deg, #b7ce63, #c5d883);
 }
 .bubble {
   position: absolute;
   z-index: -2;
-  background-image: linear-gradient(45deg, #f09819, #edde5d);
+  background-image: linear-gradient(45deg, #ff928b, #ffc6c2);
   transform: scaleY(1.5) scaleX(1.5);
   transition: all 0.5s ease;
 }
