@@ -5,6 +5,7 @@
 }
 body {
   width: 100vw;
+  font-family: "Lato", sans-serif;
 }
 
 /*NAVBAR*/
@@ -22,7 +23,6 @@ nav {
   width: 90%;
   align-items: center;
   min-height: 10vh;
-  font-family: "Lato", sans-serif;
 }
 
 .logo {
@@ -138,39 +138,24 @@ section h2 {
 }
 
 .home {
-  background-image: linear-gradient(
-    to left,
-    #ff9a9e 0%,
-    #fad0c4 99%,
-    #fad0c4 100%
-  );
+  background-image: linear-gradient(45deg, #f09819, #edde5d);
 }
 
 .about {
-  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  background-image: linear-gradient(45deg, #0093e9 0%, #80d0c7 100%);
 }
 
 .work {
-  background-image: linear-gradient(to left, #fad0c4 0%, #ffd1ff 100%);
+  background-image: linear-gradient(45deg, #02aab0, #00cdac);
 }
 
 .projects {
-  background-image: linear-gradient(
-    to right,
-    #fdcbf1 0%,
-    #fdcbf1 1%,
-    #e6dee9 100%
-  );
+  background-image: linear-gradient(45deg, #ff416c, #ff4b2b);
 }
 .bubble {
   position: absolute;
   z-index: -2;
-  background-image: linear-gradient(
-    to left,
-    #ff9a9e 0%,
-    #fad0c4 99%,
-    #fad0c4 100%
-  );
+  background-image: linear-gradient(45deg, #f09819, #edde5d);
   transform: scaleY(1.5) scaleX(1.5);
   transition: all 0.5s ease;
 }

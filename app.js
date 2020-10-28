@@ -23,14 +23,16 @@ const navSlide = () => {
   });
 };
 
+// Section highlight
 const gradient = () => {
   const sections = document.querySelectorAll("section");
   const bubble = document.querySelector(".bubble");
+  const navSection = document.querySelectorAll(".nav-links a");
   const gradients = [
-    "linear-gradient(to left, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%)",
-    "linear-gradient(to right, #ffecd2 0%, #fcb69f 100%)",
-    "linear-gradient(to left, #fad0c4 0%, #ffd1ff 100%)",
-    "linear-gradient(to right, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%)",
+    "linear-gradient(45deg, #f09819, #edde5d)",
+    "linear-gradient(45deg, #0093E9 0%, #80D0C7 100%)",
+    "linear-gradient(45deg, #02aab0, #00cdac)",
+    "linear-gradient(45deg, #FF416C, #FF4B2B)",
   ];
 
   const options = {
